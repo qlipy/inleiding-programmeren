@@ -1,12 +1,10 @@
 Player p1;
 boolean gameOver = false;
 
-//maak array van getallen
 int[] getallen = {5, 10, 15, 20, 25};
 Stone[] stones = {new Stone(), new Stone(), new Stone(), new Stone()};
-//loop door array en print getallen 1 voor 1 (in setup())
 
-//array van stenen
+
 
 void setup() {
   size(1200, 900);
@@ -24,7 +22,6 @@ if (!gameOver){
   p1.move();
 
 
-  //per steen:
 
   for (int i = 0; i < stones.length; i++) {
     Stone stone = stones[i];
